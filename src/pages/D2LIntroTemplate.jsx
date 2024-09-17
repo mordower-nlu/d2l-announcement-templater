@@ -40,14 +40,14 @@ export function D2LIntroTemplate(){
                 </div>:null}
                 <p>
                     <strong>Important Links:</strong><br/>
-                    <a rel="noopener" href={supportInfo[servIdA].serviceUrl} target="_blank">- Schedule an appointment with a {supportInfo[servIdA].specialistType}  specialist</a> (Note: you must be logged in to access this page)
+                    <a rel="noopener" href={supportInfo[servIdA].serviceUrl} target="_blank">- Schedule an appointment with a {supportInfo[servIdA].specialistType}  specialist</a> (Note: you must be logged in to access this page.)
                 </p>
                 {(servIdB>=0 && servIdA !== servIdB)?<p>
                     <a rel="noopener" href={supportInfo[servIdB].serviceUrl} target="_blank">
                         {(supportInfo[servIdB].serviceType==="APA Citation Support")?
                             <span>- Schedule an APA citation consultation</span>:
                             <span>- Schedule an appointment with a {supportInfo[servIdB].specialistType} specialist</span>}
-                    </a> (Note: you must be logged in to access this page)
+                    </a> (Note: you must be logged in to access this page.)
                 </p>:null}
                 <p>
                     <a rel="noopener" href={LearningSupportUrl} target="_blank">- Learning Support website</a>
