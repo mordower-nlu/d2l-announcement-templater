@@ -134,7 +134,7 @@ export function D2LIntroTemplate(){
         <textarea style={{width:"500px", height:"150px"}} readOnly value={ ReactDOMServer.renderToStaticMarkup(htmlCopyable)} ref={htmlTextboxRef}/>
         <h4>Caution: double-check for typos after saving the code in D2L (it'll display the text normally once you click "Save" -- I promise). I made this super-quick, so some stuff is still funky.</h4>
         <hr/>
-        <h3>Preview:</h3>
+        <h3>Preview (if you're uncomfortable with the HTML stuff, feel free to copy and paste the text below instead; I'm just not sure if the video embedding will work.):</h3>
         {htmlCopyable}
 
         
