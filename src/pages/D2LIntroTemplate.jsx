@@ -128,11 +128,11 @@ export function D2LIntroTemplate(){
             </select>
         </p>
         <hr/>
-        <h3>Copyable HTML</h3>
+        <h3>Copyable HTML:</h3>
         <p>Paste your copied text into the "Source Code" editor of D2L, and then click "Save" to start your post. From there, make any edits you see fit.</p>
         <p><button onClick={copyCallback}>Click here to copy the text.</button></p>
-        <textarea style={{width:"auto"}} readOnly value={ ReactDOMServer.renderToStaticMarkup(htmlCopyable)} ref={htmlTextboxRef}/>
-        <h4>Caution: double-check for typos. I made this super-quick.</h4>
+        <textarea style={{width:"500px", height:"150px"}} readOnly value={ ReactDOMServer.renderToStaticMarkup(htmlCopyable)} ref={htmlTextboxRef}/>
+        <h4>Caution: double-check for typos after saving the code in D2L (it'll display the text normally once you click "Save" -- I promise). I made this super-quick, so some stuff is still funky.</h4>
         <hr/>
         <h3>Preview:</h3>
         {htmlCopyable}
