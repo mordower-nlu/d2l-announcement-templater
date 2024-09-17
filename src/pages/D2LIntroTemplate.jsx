@@ -79,6 +79,7 @@ export function D2LIntroTemplate(){
 
     return <>
         <p>
+           <h3>Indicate your name and the services you'd like to link to here:</h3>
             <label >Which specialist are you? </label>
             <select name="specialist name" value={specialistId} onChange={
                 (e)=>{
@@ -128,9 +129,9 @@ export function D2LIntroTemplate(){
         </p>
         <hr/>
         <h3>Copyable HTML</h3>
+        <p>Paste your copied text into the "Source Code" editor of D2L, and then click "Save" to start your post. From there, make any edits you see fit.</p>
         <p><button onClick={copyCallback}>Click here to copy the text.</button></p>
         <textarea style={{width:"auto"}} readOnly value={ ReactDOMServer.renderToStaticMarkup(htmlCopyable)} ref={htmlTextboxRef}/>
-        <p>Paste your copied text into the "Source Code" editor of D2L, and then click "Save" to start your post. From there, make any edits you see fit.</p>
         <h4>Caution: double-check for typos. I made this super-quick.</h4>
         <hr/>
         <h3>Preview:</h3>
