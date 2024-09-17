@@ -40,13 +40,13 @@ export function D2LIntroTemplate(){
                 </div>:null}
                 <p>
                     <strong>Important Links:</strong><br/>
-                    <a rel="noopener" href={supportInfo[servIdA].serviceUrl} target="_blank">- Schedule an appointment with a {supportInfo[servIdA].specialistType}  specialist</a> (Note: you must be logged in to access this page.)
+                    <a rel="noopener" href={supportInfo[servIdA].serviceUrl} target="_blank">- Schedule an appointment with a {supportInfo[servIdA].specialistType}</a> (Note: you must be logged in to access this page.)
                 </p>
                 {(servIdB>=0 && servIdA !== servIdB)?<p>
                     <a rel="noopener" href={supportInfo[servIdB].serviceUrl} target="_blank">
                         {(supportInfo[servIdB].serviceType==="APA Citation Support")?
                             <span>- Schedule an APA citation consultation</span>:
-                            <span>- Schedule an appointment with a {supportInfo[servIdB].specialistType} specialist</span>}
+                            <span>- Schedule an appointment with a {supportInfo[servIdB].specialistType}</span>}
                     </a> (Note: you must be logged in to access this page.)
                 </p>:null}
                 <p>
@@ -56,7 +56,7 @@ export function D2LIntroTemplate(){
                     <a rel="noopener" href={StudyTablesLink} target="_blank">- Study Tables</a> (for virtual walk-in appointments)
                 </p>
                 <p>
-                    <a rel="noopener" href={DropoffLink} target="_blank">- Assignment drop-off service</a>
+                    <a rel="noopener" href={DropoffLink} target="_blank">- Assignment Drop-off Service</a>
                 </p>
                 <p>
                     <a rel="noopener" href={specialistInfo[specId].BioLink} target="_blank">- About me</a>
@@ -132,7 +132,7 @@ export function D2LIntroTemplate(){
         <p>Paste your copied text into the "Source Code" editor of D2L, and then click "Save" to start your post. From there, make any edits you see fit.</p>
         <p><button onClick={copyCallback}>Click here to copy the text.</button></p>
         <textarea style={{width:"500px", height:"150px"}} readOnly value={ ReactDOMServer.renderToStaticMarkup(htmlCopyable)} ref={htmlTextboxRef}/>
-        <h4>Caution: double-check for typos after saving the code in D2L (it'll display the text normally once you click "Save" -- I promise). I made this super-quick, so some stuff is still funky.</h4>
+        <h4>Caution:</h4> Double-check for typos after saving the code in D2L (it'll display the text normally once you click "Save" -- I promise). I made this super-quick, so some stuff is still funky.
         <hr/>
         <h3>Preview (if you're uncomfortable with the HTML stuff, feel free to copy and paste the text below instead; I'm just not sure if the video embedding will work.):</h3>
         {htmlCopyable}

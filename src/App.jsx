@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <div>
-        Select a Template: 
+        <h3>Select a Template: </h3>
          <button onClick={clickHandler} value={1}>D2L Intro Template</button>
       </div>
       <hr/>
