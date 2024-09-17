@@ -78,8 +78,8 @@ export function D2LIntroTemplate(){
 
 
     return <>
-        <p>
            <h3>Indicate your name and the services you'd like to link to here:</h3>
+        <p>
             <label >Which specialist are you? </label>
             <select name="specialist name" value={specialistId} onChange={
                 (e)=>{
@@ -128,14 +128,18 @@ export function D2LIntroTemplate(){
             </select>
         </p>
         <hr/>
+
+        <h3>Preview <br/>(You can copy and paste this stuff directly into D2L.)<br/> Warning: embedded video will not be copied into D2L unless you manually copy and paste the HTML at the bottom of the page.):</h3>
+        {htmlCopyable}
+
+        <hr/>
         <h3>Copyable HTML:</h3>
         <p>Paste your copied text into the "Source Code" editor of D2L, and then click "Save" to start your post. From there, make any edits you see fit.</p>
         <p><button onClick={copyCallback}>Click here to copy the text.</button></p>
         <textarea style={{width:"500px", height:"150px"}} readOnly value={ ReactDOMServer.renderToStaticMarkup(htmlCopyable)} ref={htmlTextboxRef}/>
         <h4>Caution:</h4> Double-check for typos after saving the code in D2L (it'll display the text normally once you click "Save" -- I promise). I made this super-quick, so some stuff is still funky.
         <hr/>
-        <h3>Preview (if you're uncomfortable with the HTML stuff, feel free to copy and paste the text below instead; I'm just not sure if the video embedding will work.):</h3>
-        {htmlCopyable}
+        
 
         
     
