@@ -1,0 +1,137 @@
+[ {
+        "FirstName":"Kellie",
+        "LastName":"Zaremba",
+        "Pronouns":"She/They/Theirs",
+        "JobTitle":"Associate Director of Learning Support",
+        "BioLink":"https://nl.edu/learning-support/meet-the-learning-support-team/#kellie",
+        "IntroVideoLink":null,
+        "email":"kzaremba1@nl.edu",
+        "PersonalSchedulingLink":null
+
+    },
+    {
+        "FirstName":"Kevin",
+        "LastName":"Sparrow",
+        "Pronouns":"They/Them/Theirs",
+        "JobTitle":"Manager of Learning Support",
+        "BioLink":"https://nl.edu/learning-support/meet-the-learning-support-team/#kevin",
+        "IntroVideoLink":null,
+        "email":"ksparrow1@nl.edu",
+        "PersonalSchedulingLink":"https://nl.campus.eab.com/pal/W0whSqWfNv"
+    },
+    {
+        "FirstName":"Maleek",
+        "LastName":"Richardson",
+        "Pronouns":"He/Him/His",
+        "JobTitle":"Senior Math Support Specialist",
+        "BioLink":"https://nl.edu/learning-support/meet-the-learning-support-team/#maleek",
+        "IntroVideoLink":null,
+        "email":"mrichardson14@nl.edu",
+        "PersonalSchedulingLink":"https://nl.campus.eab.com/pal/fzIpL1iEyv"
+    },
+    {
+        "FirstName":"Michael",
+        "LastName":"Ordower",
+        "Pronouns":"He/Him/His",
+        "JobTitle":"Math Support Specialist",
+        "BioLink":"https://nl.edu/learning-support/meet-the-learning-support-team/#michael",
+        "IntroVideoLink":"https://nl.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=5b9ea52f-3433-46df-8ac7-b1a1012a0675&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all",
+        "email":"mordower@nl.edu",
+        "PersonalSchedulingLink":"https://nl.campus.eab.com/pal/vHIpwQZxc3"
+    },
+    {
+        "FirstName":"Dhruvil",
+        "LastName":"Prajapati",
+        "Pronouns":"He/Him/His",
+        "JobTitle":"Math & Computer Science Support Specialist",
+        "BioLink":"https://nl.edu/learning-support/meet-the-learning-support-team/#dhruvil",
+        "IntroVideoLink":null,
+        "email":"dprajapati@nl.edu",
+        "PersonalSchedulingLink":"https://nl.campus.eab.com/pal/kkJuuLIf-8"
+    },
+    {
+        "FirstName":"Galen",
+        "LastName":"Turoci",
+        "Pronouns":"He/Him/His",
+        "JobTitle":"Math & Computer Science Support Specialist",
+        "BioLink":"https://nl.edu/learning-support/meet-the-learning-support-team/#galen",
+        "IntroVideoLink":null,
+        "email":"gturoci@nl.edu",
+        "PersonalSchedulingLink":"https://nl.campus.eab.com/pal/k_wLTcEsWX"
+    },
+    {
+        "FirstName":"Benjamin",
+        "LastName":"Page",
+        "Pronouns":"He/Him/His",
+        "JobTitle":"Computer Science Support Specialist",
+        "BioLink":"https://nl.edu/learning-support/meet-the-learning-support-team/#benjamin",
+        "IntroVideoLink":null,
+        "email":"bpage5@nl.edu",
+        "PersonalSchedulingLink":"https://nl.campus.eab.com/pal/OGTVNVqmRg"
+    },
+    {
+        "FirstName":"Tracy",
+        "LastName":"Kaske",
+        "Pronouns":"She/Her/Hers",
+        "JobTitle":"Senior Writing Support Specialist",
+        "BioLink":"https://nl.edu/learning-support/meet-the-learning-support-team/#tracy",
+        "IntroVideoLink":null,
+        "email":"tkaske@nl.edu",
+        "PersonalSchedulingLink":"https://nl.campus.eab.com/pal/pctTb8Mg_a"
+    },
+    {
+        "FirstName":"Carlos",
+        "LastName":"Alverio",
+        "Pronouns":"He/Him/His",
+        "JobTitle":"Writing Support Specialist",
+        "BioLink":"https://nl.edu/learning-support/meet-the-learning-support-team/#carlos",
+        "IntroVideoLink":null,
+        "email":"calverio@nl.edu",
+        "PersonalSchedulingLink":"https://nl.campus.eab.com/pal/J4on2gg0b6"
+    },
+    {
+        "FirstName":"Alex",
+        "LastName":"Kessler",
+        "Pronouns":"He/Him/His",
+        "JobTitle":"Writing Support Specialist",
+        "BioLink":"https://nl.edu/learning-support/meet-the-learning-support-team/#alex",
+        "IntroVideoLink":null,
+        "email":"akessler3@nl.edu",
+        "PersonalSchedulingLink":"https://nl.campus.eab.com/pal/W3A84FGjQp"
+    },
+    {
+        "FirstName":"Alyx",
+        "LastName":"Chandler",
+        "Pronouns":"She/Her/Hers",
+        "JobTitle":"Writing Support Specialist",
+        "BioLink":"https://nl.edu/learning-support/meet-the-learning-support-team/#alyx",
+        "IntroVideoLink":null,
+        "email":"achandler9@nl.edu",
+        "PersonalSchedulingLink":"https://nl.campus.eab.com/pal/gIP_6skZaX"
+    },
+    {
+        "FirstName":"Moon",
+        "LastName":"Abbott",
+        "Pronouns":"They/Them/Theirs",
+        "JobTitle":"Tutor Coordinator",
+        "BioLink":"https://nl.edu/learning-support/meet-the-learning-support-team/#moon",
+        "IntroVideoLink":null,
+        "email":"mabbott3@nl.edu",
+        "PersonalSchedulingLink":"https://nl.campus.eab.com/pal/KXwfDw_Y_F"
+    },
+    {
+        "FirstName":"Rebekah",
+        "LastName":"Trefilova",
+        "Pronouns":"She/Her/Hers",
+        "JobTitle":"ELL & Writing Support Specialist",
+        "BioLink":"https://nl.edu/learning-support/meet-the-learning-support-team/#rebekah",
+        "IntroVideoLink":null,
+        "email":"rtrefilova@nl.edu",
+        "PersonalSchedulingLink":"https://nl.campus.eab.com/pal/Z5CFyjFcKZ"
+    }
+
+
+
+
+
+]

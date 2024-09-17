@@ -1,0 +1,32 @@
+[
+    {
+        "specialistType":"math",
+        "serviceType":"Math Support",
+        "serviceUrl":"https://nl.campus.eab.com/capabilities#/my/appointment-results?care_unit_id=149&service_id=13814"
+    },
+    {
+        "specialistType":"computer science",
+        "serviceType":"Computer Science Support",
+        "serviceUrl":"https://nl.campus.eab.com/capabilities#/my/appointment-results?care_unit_id=149&service_id=18576"
+    },
+    {
+        "specialistType":"writing",
+        "serviceType":"Writing Support",
+        "serviceUrl":"https://nl.campus.eab.com/capabilities#/my/appointment-results?care_unit_id=149&service_id=13812"
+    },
+    {
+        "specialistType":"writing",
+        "serviceType":"APA Citation Support",
+        "serviceUrl":"https://nl.campus.eab.com/capabilities#/my/appointment-results?care_unit_id=149&service_id=21207"
+    },
+    {
+        "specialistType":"ELL",
+        "serviceType":"English Language Support",
+        "serviceUrl":"https://nl.campus.eab.com/capabilities#/my/appointment-results?care_unit_id=149&service_id=21224"
+    },
+    {
+        "specialistType":"graduate writing",
+        "serviceType":"Graduate Writing Support",
+        "serviceUrl":"https://nl.campus.eab.com/capabilities#/my/appointment-results?care_unit_id=149&service_id=21206"
+    }
+]
