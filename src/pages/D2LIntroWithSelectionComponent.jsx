@@ -3,9 +3,9 @@ import ReactDOMServer from 'react-dom/server';
 import { DropoffLink, LearningSupportUrl, StudyTablesLink } from "../constants/WebpageLinks";
 import specialistInfo from "../assets/specialistInfo.json";
 import supportInfo from "../assets/supportProvided.json";
+import { selectSpecialist } from "../views/SpecialistSelect";
 
-
-export function D2LIntroTemplate(){
+export function D2LIntroTemplateWithSelection(){
     const [specialistId,setSelected]=useState(0);
     const [htmlCopyable,setHtmlCopyable]=useState(<></>);
     const [serviceAIndex,setServiceA]=useState(0);
@@ -80,25 +80,9 @@ export function D2LIntroTemplate(){
 
     return <>
            <h3>Indicate your name and the services you'd like to link to here:</h3>
-        <p>
-            <label >Which specialist are you? </label>
-            <select name="specialist name" value={specialistId} onChange={
-                (e)=>{
-                    //setSelected(e.target.value)
-                    
-
-                   selectionCallback(e.target.value,[serviceAIndex,serviceBIndex]);
-
-
-                       
-                
-                
-                    }
-                    
-                }>
-                {specialistInfo.map((elem,index)=><option value={index} key={"specialist "+index}>{elem.FirstName}</option>)}
-            </select>
-        </p>
+        
+            {selectSpecialist(selectionCallback,[serviceAIndex,serviceBIndex])}
+        
         <p>
             <label>Which scheduling link do you want to provide? </label>
             <select name="service A" value={serviceAIndex} onChange={
