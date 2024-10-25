@@ -1,8 +1,12 @@
-# React + Vite
+# D2L Announcement Templater
+We were instructed to write messaging templates as Word Documents, then manually copy and paste our information into each field.
+<br/>
+This workflow felt silly to me, so I created my own workaround.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Page is live at: 
+<br/>
+https://d2l-announcement-template.netlify.app/
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Note:** The Knewton Workshop templater isn't functional right now. I stopped working on it, since updating the flyer manually every term made it more trouble than it's worth.
